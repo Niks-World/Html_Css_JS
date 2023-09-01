@@ -1,0 +1,70 @@
+#teacher {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+#teachers div{
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; ;
+}
+
+#teacher img{
+    width: 95%;
+    margin: 2%;
+}
+
+teacher{
+    margin: -10px;
+}
+
+#course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#course > div{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+ /* medium screens */
+ @media only screen and (min-width: 421px) and (max-width: 720px) {
+    #teachers{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 15px;
+          margin-bottom: 80px;
+    }
+
+    #courses{
+          display: grid;
+          grid-template-columns: repeat(2,1fr); 
+          gap: 10px;
+          width: 80%;
+          margin: auto;
+   }
+}
+
+ /* small screens */
+ @media only screen and (min-width: 0px) and (max-width: 420px) {
+    #teachers{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 15px;
+          margin-bottom: 80px;
+    }
+
+    #courses{
+          display: grid;
+          grid-template-columns: repeat(1,1fr); 
+          gap: 10px;
+          width: 80%;
+          margin: auto;
+   }
+}
