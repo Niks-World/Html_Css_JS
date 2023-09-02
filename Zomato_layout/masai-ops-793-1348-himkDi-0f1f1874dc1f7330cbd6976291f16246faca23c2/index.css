@@ -130,6 +130,11 @@
     font-size: 10px;
 
    }
+   img{
+    width: 100%;
+    padding: auto;
+    padding-top: 20px;
+   }
 
 
 
